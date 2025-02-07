@@ -1,0 +1,14 @@
+.back-button {
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #bdbdbd);
+    -fx-border-color: #888;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+}
+
+.back-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #d6d6d6, #a8a8a8);
+}

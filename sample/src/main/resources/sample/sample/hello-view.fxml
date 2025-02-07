@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="1229.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="114.0" prefWidth="1229.0" style="-fx-background-color: lightgrey;">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="196.0" layoutX="279.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../java/sample/sample/images/1-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="448.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Safe your video" wrappingWidth="238.9140625">
+               <font>
+                  <Font name="Mongolian Baiti" size="37.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="103.0" fitWidth="164.0" layoutX="702.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../java/sample/sample/images/Symbol-Instagram-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+         <stylesheets>
+            <URL value="@../../../../../target/classes/sample/sample/styles/styles.css" />
+            <URL value="@../../../java/sample/sample/styles/styles.css" />
+         </stylesheets>
+      </AnchorPane>
+      <ButtonBar layoutX="72.0" layoutY="223.0" prefHeight="40.0" prefWidth="200.0" />
+    <Button layoutX="50.0" layoutY="181.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="239.0" text="Youtube" textFill="#0d0d0d">
+         <font>
+            <Font name="Book Antiqua" size="34.0" />
+         </font>
+      </Button>
+      <Button layoutX="50.0" layoutY="269.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="239.0" text="Tik Tok">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <ButtonBar layoutX="57.0" layoutY="423.0" prefHeight="40.0" prefWidth="200.0" />
+      <Button layoutX="50.0" layoutY="364.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="239.0" text="Instagram">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="454.0" layoutY="578.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="206.0" style="-fx-border-color: #888; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-padding: 5px 10px; -fx-background-radius: 5px; -fx-font-size: 20; -fx-background-color: linear-gradient(to bottom, #e0e0e0, #bdbdbd);;" text="Назад">
+         <font>
+            <Font name="Cambria" size="34.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="N_RESIZE" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
